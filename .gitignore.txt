@@ -1,0 +1,52 @@
+# FoodXchange Platform .gitignore
+
+# Environment variables and secrets
+.env
+.env.local
+.env.production
+*.env
+
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+
+# Build outputs
+dist/
+build/
+.next/
+
+# Logs
+*.log
+logs/
+
+# Database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# User uploads (for later when you have user content)
+uploads/users/
+uploads/temp/
+
+# Backup files
+*.backup
+*.bak
+
+# Cache files
+.cache/
