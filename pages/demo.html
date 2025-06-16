@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodExchange Demo - See Our Platform in Action</title>
+  <!-- Favicon Links - ALL need ../ prefix for subfolder pages -->
+    <link rel="icon" type="image/x-icon" href="../images/favicons/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicons/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../images/favicons/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="../images/favicons/android-chrome-512x512.png">
+    <!-- Modern browsers support SVG favicons -->
+    <link rel="icon" type="image/svg+xml" href="../images/favicons/FoodXchange_Favicon_Positive_Version-07.svg">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm" id="mainNavbar">
+    <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="../index.html">
+            <img src="../images/logos/FoodXchange-Logo_Positive_Version-01.svg" alt="FoodXchange Logo" class="logo-image">
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="for-buyers.html">For Buyers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="for-sellers.html">For Sellers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="for-agents.html">Agents</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pricing.html">Pricing</a>
+                    </li>
+                </ul>
+                
+                <div class="d-flex gap-2">
+                    <a href="#contact" class="btn btn-outline-primary">Contact Us</a>
+                    <a href="#signin" class="btn btn-primary">Sign In</a>
+            </div>
+        </div>
+    </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section bg-light position-relative overflow-hidden">
+        <div class="container">
+            <div class="row align-items-center min-vh-100 py-5">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h1 class="display-4 fw-bold text-primary mb-4">
+                        See FoodExchange in Action
+                    </h1>
+                    <p class="lead text-muted mb-4">
+                        Experience how our unified platform transforms global food sourcing. Watch how buyers and suppliers collaborate seamlessly from RFQ to delivery.
+                    </p>
+                    
+                    <div class="d-flex flex-wrap gap-3 mb-5">
+                        <a href="#interactive-demo" class="btn btn-warning btn-lg px-4">
+                            <i class="bi bi-play-circle me-2"></i>Start Interactive Demo
+                        </a>
+                        <a href="#schedule-demo" class="btn btn-outline-warning btn-lg px-4">
+                            <i class="bi bi-calendar-event me-2"></i>Schedule Live Demo
+                        </a>
+                    </div>
+                    
+                    <!-- Demo Stats -->
+                    <div class="row g-4">
+                        <div class="col-4">
+                            <div class="text-center">
+                                <h3 class="fw-bold text-primary mb-1">5 min</h3>
+                                <small class="text-muted">Demo Duration</small>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="text-center">
+                                <h3 class="fw-bold text-primary mb-1">4 Steps</h3>
+                                <small class="text-muted">Complete Workflow</small>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="text-center">
+                                <h3 class="fw-bold text-primary mb-1">Real Data</h3>
+                                <small class="text-muted">Live Examples</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="video-container rounded shadow-lg overflow-hidden">
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/1vfWb4PNDmI?si=vNzXZm54haQqmq1d" 
+                                    title="FoodExchange Platform Demo" 
+                                    allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Decorative elements -->
+        <div class="hero-decoration-1"></div>
+        <div class="hero-decoration-2"></div>
+    </section>
+
+    <!-- Interactive Demo Section -->
+    <section id="interactive-demo" class="py-5 bg-white">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold text-primary mb-3">Interactive Platform Demo</h2>
+                <p class="lead text-muted mx-auto" style="max-width: 600px;">
+                    Click through our actual platform interface and see how easy global food sourcing can be
+                </p>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="demo-interface bg-light rounded-3 p-4 shadow">
+                        <!-- Demo Navigation Tabs -->
+                        <ul class="nav nav-pills nav-justified mb-4" id="demoTabs" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="sourcing-tab" data-bs-toggle="pill" data-bs-target="#sourcing" type="button" role="tab">
+                                    <i class="bi bi-search me-2"></i>Sourcing
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="compliance-tab" data-bs-toggle="pill" data-bs-target="#compliance" type="button" role="tab">
+                                    <i class="bi bi-shield-check me-2"></i>Compliance
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="proposals-tab" data-bs-toggle="pill" data-bs-target="#proposals" type="button" role="tab">
+                                    <i class="bi bi-clipboard-data me-2"></i>Proposals
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="logistics-tab" data-bs-toggle="pill" data-bs-target="#logistics" type="button" role="tab">
+                                    <i class="bi bi-truck me-2"></i>Logistics
+                                </button>
+                            </li>
+                        </ul>
+
+                        <!-- Demo Content -->
+                        <div class="tab-content" id="demoTabContent">
+                            <!-- Sourcing Tab -->
+                            <div class="tab-pane fade show active" id="sourcing" role="tabpanel">
+                                <div class="demo-screen bg-white rounded border p-4">
+                                    <h5 class="mb-3">Create RFQ - Organic Granola Bars</h5>
+                                    <div class="row g-3">
+                                        <div class="col-md-6">
+                                            <label class="form-label" for="productCategory">Product Category</label>
+                                            <select class="form-select" id="productCategory" name="productCategory" aria-label="Product Category">
+                                                <option>Packaged Snacks</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label class="form-label" for="targetMarket">Target Market</label>
+                                            <select class="form-select" id="targetMarket" name="targetMarket" aria-label="Target Market">
+                                                <option>Israel</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label class="form-label" for="quantity">Quantity (units)</label>
+                                            <input type="text" class="form-control" id="quantity" name="quantity" value="10,000">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label class="form-label">Certifications</label>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="certKosher" name="certifications" checked>
+                                                <label class="form-check-label" for="certKosher">Kosher</label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="certOrganic" name="certifications" checked>
+                                                <label class="form-check-label" for="certOrganic">Organic</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-warning mt-3">Send RFQ to 15 Verified Suppliers</button>
+                                </div>
+                            </div>
+
+                            <!-- Compliance Tab -->
+                            <div class="tab-pane fade" id="compliance" role="tabpanel">
+                                <div class="demo-screen bg-white rounded border p-4">
+                                    <h5 class="mb-3">Automated Compliance Check</h5>
+                                    <div class="row g-3">
+                                        <div class="col-12">
+                                            <div class="alert alert-success">
+                                                <i class="bi bi-check-circle me-2"></i>All suppliers pre-verified for Israel market requirements
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h6>Regulatory Requirements</h6>
+                                            <ul class="list-unstyled">
+                                                <li><i class="bi bi-check-circle text-success me-2"></i>FDA Registration</li>
+                                                <li><i class="bi bi-check-circle text-success me-2"></i>HACCP Certification</li>
+                                                <li><i class="bi bi-check-circle text-success me-2"></i>Israeli Standards Compliance</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h6>Certifications</h6>
+                                            <ul class="list-unstyled">
+                                                <li><i class="bi bi-check-circle text-success me-2"></i>Kosher Certification (OU)</li>
+                                                <li><i class="bi bi-check-circle text-success me-2"></i>Organic Certification (USDA)</li>
+                                                <li><i class="bi bi-check-circle text-success me-2"></i>Non-GMO Verified</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Proposals Tab -->
+                            <div class="tab-pane fade" id="proposals" role="tabpanel">
+                                <div class="demo-screen bg-white rounded border p-4">
+                                    <h5 class="mb-3">Compare Supplier Proposals</h5>
+                                    <div class="table-responsive">
+                                        <table class="table table-striped">
+                                            <thead>
+                                                <tr>
+                                                    <th>Supplier</th>
+                                                    <th>Price per unit</th>
+                                                    <th>Lead Time</th>
+                                                    <th>Sample Available</th>
+                                                    <th>Action</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Nature Valley Co.</td>
+                                                    <td>$2.45</td>
+                                                    <td>14 days</td>
+                                                    <td><span class="badge bg-success">Yes</span></td>
+                                                    <td><button class="btn btn-sm btn-outline-warning">Request Sample</button></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Organic Treats Ltd.</td>
+                                                    <td>$2.38</td>
+                                                    <td>21 days</td>
+                                                    <td><span class="badge bg-success">Yes</span></td>
+                                                    <td><button class="btn btn-sm btn-warning">Best Match</button></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>HealthBar Solutions</td>
+                                                    <td>$2.52</td>
+                                                    <td>10 days</td>
+                                                    <td><span class="badge bg-success">Yes</span></td>
+                                                    <td><button class="btn btn-sm btn-outline-warning">Request Sample</button></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Logistics Tab -->
+                            <div class="tab-pane fade" id="logistics" role="tabpanel">
+                                <div class="demo-screen bg-white rounded border p-4">
+                                    <h5 class="mb-3">Shipment Tracking & Documentation</h5>
+                                    <div class="row g-3">
+                                        <div class="col-md-8">
+                                            <div class="timeline">
+                                                <div class="timeline-item completed">
+                                                    <div class="timeline-marker bg-success"></div>
+                                                    <div class="timeline-content">
+                                                        <h6>Order Confirmed</h6>
+                                                        <small class="text-muted">March 15, 2024</small>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-item completed">
+                                                    <div class="timeline-marker bg-success"></div>
+                                                    <div class="timeline-content">
+                                                        <h6>Production Started</h6>
+                                                        <small class="text-muted">March 18, 2024</small>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-item active">
+                                                    <div class="timeline-marker bg-warning"></div>
+                                                    <div class="timeline-content">
+                                                        <h6>In Transit</h6>
+                                                        <small class="text-muted">Expected: March 28, 2024</small>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-item">
+                                                    <div class="timeline-marker bg-light"></div>
+                                                    <div class="timeline-content">
+                                                        <h6>Customs Clearance</h6>
+                                                        <small class="text-muted">Expected: March 30, 2024</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <h6 class="card-title">Shipment Details</h6>
+                                                    <p class="card-text small">
+                                                        <strong>Container:</strong> MSKU7834567<br>
+                                                        <strong>Vessel:</strong> MSC Fortunate<br>
+                                                        <strong>ETA Haifa:</strong> March 30, 2024
+                                                    </p>
+                                                    <button class="btn btn-sm btn-outline-primary">Track Live</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Features Demo -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold text-primary">See What Makes Us Different</h2>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="feature-icon mx-auto mb-3 bg-warning text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
+                                <i class="bi bi-lightning fs-4"></i>
+                            </div>
+                            <h5 class="card-title text-primary fw-bold">5x Faster</h5>
+                            <p class="card-text text-muted">
+                                Reduce sourcing time from months to weeks with structured workflows.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="feature-icon mx-auto mb-3 bg-warning text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
+                                <i class="bi bi-shield-check fs-4"></i>
+                            </div>
+                            <h5 class="card-title text-primary fw-bold">100% Compliant</h5>
+                            <p class="card-text text-muted">
+                                Automated compliance checks ensure all regulatory requirements are met.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="feature-icon mx-auto mb-3 bg-warning text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
+                                <i class="bi bi-people fs-4"></i>
+                            </div>
+                            <h5 class="card-title text-primary fw-bold">Global Network</h5>
+                            <p class="card-text text-muted">
+                                Access thousands of verified suppliers and buyers worldwide.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="feature-icon mx-auto mb-3 bg-warning text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
+                                <i class="bi bi-graph-up fs-4"></i>
+                            </div>
+                            <h5 class="card-title text-primary fw-bold">Real-time Tracking</h5>
+                            <p class="card-text text-muted">
+                                Full visibility from RFQ to delivery with live updates and analytics.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Demo Section -->
+    <section id="schedule-demo" class="py-5 bg-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h2 class="display-5 fw-bold text-primary mb-3">Ready for a Personal Demo?</h2>
+                    <p class="lead text-muted mb-4">
+                        Schedule a 30-minute personalized demo with our team. We'll show you exactly how FoodExchange can transform your food sourcing operations.
+                    </p>
+                    
+                    <div class="d-flex flex-wrap gap-3 mb-4">
+                        <div class="d-flex align-items-center">
+                            <i class="bi bi-check-circle text-success me-2"></i>
+                            <span>Customized to your business needs</span>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-wrap gap-3 mb-4">
+                        <div class="d-flex align-items-center">
+                            <i class="bi bi-check-circle text-success me-2"></i>
+                            <span>Live Q&A with our experts</span>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-wrap gap-3 mb-4">
+                        <div class="d-flex align-items-center">
+                            <i class="bi bi-check-circle text-success me-2"></i>
+                            <span>No commitment required</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="card shadow-lg border-0">
+                        <div class="card-body p-4">
+                            <h5 class="card-title mb-4">Schedule Your Demo</h5>
+                            <form>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <label class="form-label" for="firstName">First Name</label>
+                                        <input type="text" class="form-control" id="firstName" name="firstName" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label" for="lastName">Last Name</label>
+                                        <input type="text" class="form-control" id="lastName" name="lastName" required>
+                                    </div>
+                                    <div class="col-12">
+                                        <label class="form-label" for="company">Company</label>
+                                        <input type="text" class="form-control" id="company" name="company" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label" for="email">Email</label>
+                                        <input type="email" class="form-control" id="email" name="email" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label" for="phone">Phone</label>
+                                        <input type="tel" class="form-control" id="phone" name="phone" aria-label="Phone">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label" for="companySize">Company Size</label>
+                                        <select class="form-select" id="companySize" name="companySize" aria-label="Company Size">
+                                            <option>1-10 employees</option>
+                                            <option>11-50 employees</option>
+                                            <option>51-200 employees</option>
+                                            <option>200+ employees</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label" for="primaryInterest">Primary Interest</label>
+                                        <select class="form-select" id="primaryInterest" name="primaryInterest" aria-label="Primary Interest">
+                                            <option>Food Buyer</option>
+                                            <option>Food Supplier</option>
+                                            <option>Trade Agent</option>
+                                            <option>Other</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-warning w-100">
+                                            <i class="bi bi-calendar-event me-2"></i>Schedule Demo
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold text-primary mb-3">What Our Users Say</h2>
+                <p class="lead text-muted">See why companies worldwide trust FoodExchange</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="mb-3">
+                                <div class="text-warning">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                            </div>
+                            <p class="card-text text-muted mb-3">
+                                "FoodExchange reduced our sourcing time by 60%. The compliance automation alone saved us countless hours."
+                            </p>
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                    <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
+                                        <span class="fw-bold">SM</span>
+                                    </div>
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+                                    <h6 class="mb-0">Sarah Miller</h6>
+                                    <small class="text-muted">Sourcing Director, Shufersal</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="mb-3">
+                                <div class="text-warning">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                            </div>
+                            <p class="card-text text-muted mb-3">
+                                "The platform's structured approach helped us connect with buyers we never would have reached otherwise."
+                            </p>
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                    <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
+                                        <span class="fw-bold">MR</span>
+                                    </div>
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+                                    <h6 class="mb-0">Marco Rossi</h6>
+                                    <small class="text-muted">Export Manager, Italian Organics</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="mb-3">
+                                <div class="text-warning">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                            </div>
+                            <p class="card-text text-muted mb-3">
+                                "Real-time tracking and documentation made our logistics operations seamless. Highly recommended!"
+                            </p>
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                    <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
+                                        <span class="fw-bold">AK</span>
+                                    </div>
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+                                    <h6 class="mb-0">Ahmad Khan</h6>
+                                    <small class="text-muted">Operations Director, Global Foods Ltd</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-5 bg-primary text-white position-relative overflow-hidden">
+        <div class="container position-relative">
+            <div class="text-center">
+                <h2 class="display-5 fw-bold mb-3">Ready to Get Started?</h2>
+                <p class="lead mb-4">
+                    Join thousands of food companies already using FoodExchange to streamline their global sourcing operations.
+                </p>
+                
+                <div class="d-flex flex-wrap justify-content-center gap-3">
+                    <a href="#schedule-demo" class="btn btn-warning btn-lg px-4">
+                        <i class="bi bi-calendar-event me-2"></i>Schedule Live Demo
+                    </a>
+                    <a href="../index.html#contact" class="btn btn-outline-light btn-lg px-4">
+                        <i class="bi bi-rocket-takeoff me-2"></i>Start Free Trial
+                    </a>
+                    <a href="pricing.html" class="btn btn-outline-light btn-lg px-4">
+                        <i class="bi bi-tag me-2"></i>View Pricing
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Decorative elements -->
+        <div class="cta-decoration-1"></div>
+        <div class="cta-decoration-2"></div>
+    </section>
+
+ <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="footer-brand mb-4">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="logo-icon me-2">
+                            </div>
+                            <img src="../images/logos/FoodXchange-Logo_Positive_Version-01.svg" 
+                            alt="FoodXchange Logo" 
+                            class="footer-logo me-2"
+                            style="height: 40px; width: auto;">
+                        </div>
+                        <p class="text-muted mb-3">Get discovered by the world's leading retailers</p>
+                        <div class="contact-info">
+                            <p class="mb-2">
+                                <i class="bi bi-envelope me-2"></i>
+                                <a href="mailto:udi@fdx.trading" class="text-warning text-decoration-none">udi@fdx.trading</a>
+                            </p>
+                            <p class="mb-0">
+                                <i class="bi bi-telephone me-2"></i>
+                                <a href="tel:+972525222291" class="text-warning text-decoration-none">+972-52-5222291</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4">
+                    <div class="row g-4">
+                        <div class="col-6">
+                            <h6 class="fw-bold mb-3">Product</h6>
+                            <ul class="list-unstyled">
+                                <li><a href="for-buyers.html" class="text-muted text-decoration-none">For Buyers</a></li>
+                                <li><a href="for-sellers.html" class="text-muted text-decoration-none">For Sellers</a></li>
+                                <li><a href="for-agents.html" class="text-muted text-decoration-none">For Agents</a></li>
+                                <li><a href="pricing.html" class="text-muted text-decoration-none">Pricing</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <h6 class="fw-bold mb-3">Company</h6>
+                            <ul class="list-unstyled">
+                                <li><a href="about.html" class="text-muted text-decoration-none">About Us</a></li>
+                                <li><a href="contact.html" class="text-muted text-decoration-none">Contact</a></li>
+                                <li><a href="careers.html" class="text-muted text-decoration-none">Careers</a></li>
+                                <li><a href="blog.html" class="text-muted text-decoration-none">Blog</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4">
+                    <h6 class="fw-bold mb-3">Follow Us</h6>
+                    <div class="d-flex gap-3 mb-4">
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle" style="width: 40px; height: 40px;" aria-label="Facebook">
+                            <i class="bi bi-facebook" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle" style="width: 40px; height: 40px;" aria-label="LinkedIn">
+                            <i class="bi bi-linkedin" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle" style="width: 40px; height: 40px;" aria-label="YouTube">
+                            <i class="bi bi-youtube" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle" style="width: 40px; height: 40px;" aria-label="Instagram">
+                            <i class="bi bi-instagram" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    
+                    <h6 class="fw-bold mb-3">Resources</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="support.html" class="text-muted text-decoration-none">Support</a></li>
+                        <li><a href="privacy.html" class="text-muted text-decoration-none">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="text-muted text-decoration-none">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <hr class="my-4 border-secondary">
+            
+            <div class="text-center">
+                <p class="mb-0 text-muted">&copy; 2024 FoodExchange. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="btn btn-warning rounded-circle position-fixed scroll-to-top" id="scrollToTop" style="bottom: 2rem; right: 2rem; width: 50px; height: 50px; display: none;" aria-label="Scroll to top">
+        <i class="bi bi-arrow-up" aria-hidden="true"></i>
+    </button>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
